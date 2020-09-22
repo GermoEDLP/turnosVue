@@ -9,9 +9,8 @@
 </template>
 
 <script>
-import sidebar from './components/Sidebar'
-import toolbar from './components/Toolbar.vue'
-
+import sidebar from "./components/Sidebar";
+import toolbar from "./components/Toolbar.vue";
 
 export default {
   name: "App",
@@ -21,6 +20,6 @@ export default {
   },
   data: () => ({
     drawer: false
-  }),
+  })
 };
 </script>

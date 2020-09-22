@@ -8,8 +8,8 @@ export default new Vuex.Store({
     drawer: false
   },
   mutations: {
-    toggleSidebar(state){
-      state.drawer = !state.drawer
+    toggleSidebar(state) {
+      state.drawer = !state.drawer;
     }
   },
   actions: {},
